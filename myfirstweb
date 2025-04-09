@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPT EDU WEB SYSTEM</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .header {
+            background-color: #FF6600;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .logo {
+            float: left;
+            margin-left: 20px;
+        }
+        
+        .header-text {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+        .header-subtext {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        
+        .navigation {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .navigation a {
+            display: inline-block;
+            color: #FF6600;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .navigation a:hover {
+            background-color: #f2f2f2;
+        }
+        
+        .main-content {
+            display: flex;
+        }
+        
+        .sidebar {
+            background-color: #fff;
+            width: 250px;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+        
+        .content {
+            flex: 1;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .panel-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .sidebar ul {
+            list-style-type: square;
+            padding-left: 20px;
+            line-height: 2;
+        }
+        
+        .content-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .welcome-text {
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+        
+        .video-section {
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .video-title {
+            color: #FF6600;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .video-placeholder {
+            background-color: #ddd;
+            width: 80%;
+            height: 250px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="/api/placeholder/100/40" alt="FPT Logo" class="logo">
+        <h1 class="header-text">FPT EDU WEB SYSTEM</h1>
+        <p class="header-subtext">Khơi nguồn sáng tạo - Dẫn lối thành công</p>
+    </div>
+    
+    <div class="navigation">
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Sinh viên</a>
+        <a href="#">Liên hệ</a>
+    </div>
+    
+    <div class="main-content">
+        <div class="sidebar">
+            <h2 class="panel-title">Control Panel</h2>
+            <ul>
+                <li>Quản lý tài khoản</li>
+                <li>Quản lý bài viết</li>
+                <li>Thống kê</li>
+                <li>Thiết lập hệ thống</li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <h2 class="content-title">Nội dung chính</h2>
+            <p class="welcome-text">
+                Chào mừng đến với hệ thống web của trường FPT. Đây là nơi bạn có thể truy cập các thông tin học tập, sự kiện, và dịch vụ sinh viên.
+            </p>
+            
+            <div class="video-section">
+                <h3 class="video-title">Video giới thiệu FPT Education</h3>
+                <div class="video-placeholder"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
